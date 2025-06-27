@@ -81,7 +81,8 @@ for (let i = 0; i < buttonValues.length; i++) {
             else if (value  == "+/-") {
                 if (display.value != "" && !display.value != "0") {
                     if (display.value[0] == "-") {//remove -
-                        display.value = display.value.slice(1)
+                        display.value = "-" + display.value
+                        // display.value = display.value.slice(1)
                     } 
                     else{
                         display.value = "-" + display.value
