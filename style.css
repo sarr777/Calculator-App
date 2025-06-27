@@ -53,6 +53,20 @@ body
     border-radius: 40px;
     border: none;
 }
+#display
+{
+    background-color: #1c1c1c;
+    color: white;
+    text-align: right;
+    padding-right: 10px;
+    font-size: 80px;
+    border: none;
+    outline: none;
+    width: 100%;
+    position: absolute;
+    top: 200px !important;
+    box-sizing: border-box;
+}
 }
 
 #display
