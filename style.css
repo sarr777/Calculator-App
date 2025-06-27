@@ -39,6 +39,8 @@ body
     padding: 8px;
     position: absolute;
     bottom: 20px !important;
+    width: 100%;
+    padding-left: 40px !important;
 }
 
 #buttons button{
@@ -46,8 +48,8 @@ body
     color: white;
     font-size: 26px !important;
     text-align: center;
-    width: 50px !important;
-    height: 40px !important;
+    width: 70% !important;
+    height: 60px !important;
     border-radius: 40px;
     border: none;
 }
